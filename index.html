@@ -13,8 +13,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="body">
-    <header class="bg-gray-100">
-      <nav class="w-10/12 mx-auto">
+    <header class="">
+      <nav class="w-8/12 mx-auto">
         <div class="navbar bg-base-100">
           <div class="navbar-start flex items-center">
             <img src="./images/logo.webp" alt="" />
@@ -98,37 +98,261 @@
         />
       </section>
     </header>
-    <main class="bg-gray-100">
-      <div class="mx-auto py-12 text-center w-full max-w-[40rem]">
-        <h3 class="text-4xl font-black">Adopt Your Best Friend</h3>
-        <p class="text-base py-6">
-          Adopting a pet is a rewarding experience that brings joy and
-          companionship into your life. Join us at Peddy and start your path to
-          adoption today—your best friend is waiting for you!
-        </p>
-      </div>
+    <main>
+      <section>
+        <div class="mx-auto py-12 text-center w-full max-w-[40rem]">
+          <h3 class="text-4xl font-black">Adopt Your Best Friend</h3>
+          <p class="text-base py-6">
+            Adopting a pet is a rewarding experience that brings joy and
+            companionship into your life. Join us at Peddy and start your path
+            to adoption today—your best friend is waiting for you!
+          </p>
+        </div>
+      </section>
+
+      <!-- button with icon -->
+
+      <section class="w-10/12 mx-auto mt-12">
+        <div class="flex flex-wrap items-center justify-center gap-8">
+          <button
+            class="w-fit px-20 py-6 flex items-center gap-4 border border-solid border-rgba(14, 122, 129) /15 rounded-2xl"
+          >
+            <img src="./images/icon1.png" alt="Dogs" class="size-14" />
+            <span class="text-2xl text-[#131313] font-bold">Dogs</span>
+          </button>
+
+          <!-- select button -->
+
+          <button
+            class="w-fit px-20 py-6 flex items-center gap-4 border border-solid border-[#0E7A81] rounded-[7.5rem] bg-[#0E7A811A]"
+          >
+            <img src="./images/icon2.png" alt="Cats" class="size-14" />
+            <span class="text-2xl text-[#131313] font-bold">Cats</span>
+          </button>
+
+          <button
+            class="w-fit px-20 py-6 flex items-center gap-4 border border-solid border-rgba(14, 122, 129) /15 rounded-2xl"
+          >
+            <img src="./images/icon3.png" alt="Rabbits" class="size-14" />
+            <span class="text-2xl text-[#131313] font-bold">Rabbits</span>
+          </button>
+
+          <button
+            class="w-fit px-20 py-6 flex items-center gap-4 border border-solid border-rgba(14, 122, 129) /15 rounded-2xl"
+          >
+            <img src="./images/icon4.png" alt="Birds" class="size-14" />
+            <span class="text-2xl text-[#131313] font-bold">Birds</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="max-width-wrapper mt-12"></section>
+
+      <!-- Best Deal For you section -->
+
+      <section class="w-10/12 mx-auto mt-8 mb-8">
+        <div
+          class="w-10/12 mx-auto mt-16 mb-16 flex flex-col sm:flex-row gap-6 items-center justify-between"
+        >
+          <h3 class="text-2xl font-black">Best Deal For you</h3>
+
+          <!-- Sort by Price -->
+
+          <button
+            class="bg-[#0E7A81] font-bold text-white px-6 py-3 rounded hover:bg-[#146469]"
+          >
+            Sort by Price
+          </button>
+        </div>
+
+        <!-- cards and picture -->
+
+        <div
+          class="mt-8 flex flex-col gap-4 md:gap-2 lg:gap-6 items-center md:flex-row md:justify-center md:items-start"
+        >
+          <div class="w-fit grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-6">
+
+            <!-- card -->
+            <div class="max-w-[19.5rem] p-5 border border-solid border-[#1313131A] rounded-xl">
+              <div>
+                <img src="./images/Rectangle1.png" alt="Dogs" class="max-w-full h-auto">
+                
+               <!-- details -->
+
+               <div class="mt-8">
+               <h4 class="text-[#131313] text-xl font-bold">Mister Tartosh</h4>
+
+               <ul class="mt-2 pb-4 text-[#131313B2] text-base space-y-2 border-b border-b-[#131313B2]">
+                <li>Breed: Golder retriever</li>
+                <li>Birth: 2024</li>
+                <li>Gender: Female</li>
+                <li>Price : 199$</li>
+               </ul>
+               </div>
+
+               <!-- card buttons -->
+
+               <div class="mt-4 flex items-center justify-between gap-1">
+
+                <!-- like button -->
+
+                <button class="px-4 py-2 border border-solid border-[#13131399] rounded-lg ">
+                  <img src="./images/Frame.png" alt="Like" class="w-6 h-6 ">
+                </button>
+
+                <!-- Adopt Button -->
+                 <button class="px-4 py-2 text-[#0E7A81] text-xl font-bold border border-solid border-[#131313B2] hover:bg-[#0E7A8126] rounded-lg ">Adopt
+
+                 </button>
+
+                 <!-- Details button -->
+                <button class="px-4 py-2 text-[#0E7A81] text-xl font-bold border border-solid border-[#131313B2] hover:bg-[#0E7A8126] rounded-lg ">Details
+
+                 </button>
+
+               </div>
+
+              </div>
+
+            </div>
+            <div class="max-w-[19.5rem] p-5 border border-solid border-[#1313131A] rounded-xl">
+              <div>
+                <img src="./images/Rectangle2.png" alt="Cats" class="max-w-full h-auto">
+                
+               <!-- details -->
+
+               <div class="mt-8">
+               <h4 class="text-[#131313] text-xl font-bold">Charlie</h4>
+
+               <ul class="mt-2 pb-4 text-[#131313B2] text-base space-y-2 border-b border-b-[#131313B2]">
+                <li>Breed: Golder retriever</li>
+                <li>Birth: 2024</li>
+                <li>Gender: Female</li>
+                <li>Price : 199$</li>
+               </ul>
+               </div>
+
+               <!-- card buttons -->
+
+               <div class="mt-4 flex items-center justify-between gap-1">
+
+                <!-- like button -->
+
+                <button class="px-4 py-2 border border-solid border-[#13131399] rounded-lg ">
+                  <img src="./images/Frame.png" alt="Like" class="w-6 h-6 ">
+                </button>
+
+                <!-- Adopt Button -->
+                 <button class="px-4 py-2 text-[#0E7A81] text-xl font-bold border border-solid border-[#131313B2] hover:bg-[#0E7A8126] rounded-lg ">Adopt
+
+                 </button>
+
+                 <!-- Details button -->
+                <button class="px-4 py-2 text-[#0E7A81] text-xl font-bold border border-solid border-[#131313B2] hover:bg-[#0E7A8126] rounded-lg ">Details
+
+                 </button>
+
+               </div>
+
+              </div>
+
+            </div>
+            <div class="max-w-[19.5rem] p-5 border border-solid border-[#1313131A] rounded-xl">
+              <div>
+                <img src="./images/Rectangle3.png" alt="Dogs" class="max-w-full h-auto">
+                
+               <!-- details -->
+
+               <div class="mt-8">
+               <h4 class="text-[#131313] text-xl font-bold">Alessia Max</h4>
+
+               <ul class="mt-2 pb-4 text-[#131313B2] text-base space-y-2 border-b border-b-[#131313B2]">
+                <li>Breed: Golder retriever</li>
+                <li>Birth: 2024</li>
+                <li>Gender: Female</li>
+                <li>Price : 199$</li>
+               </ul>
+               </div>
+
+               <!-- card buttons -->
+
+               <div class="mt-4 flex items-center justify-between gap-1">
+
+                <!-- like button -->
+
+                <button class="px-4 py-2 border border-solid border-[#13131399] rounded-lg ">
+                  <img src="./images/Frame.png" alt="Like" class="w-6 h-6 ">
+                </button>
+
+                <!-- Adopt Button -->
+                 <button class="px-4 py-2 text-[#0E7A81] text-xl font-bold border border-solid border-[#131313B2] hover:bg-[#0E7A8126] rounded-lg ">Adopt
+
+                 </button>
+
+                 <!-- Details button -->
+                <button class="px-4 py-2 text-[#0E7A81] text-xl font-bold border border-solid border-[#131313B2] hover:bg-[#0E7A8126] rounded-lg ">Details
+
+                 </button>
+
+               </div>
+
+              </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- select picture  -->
+
+        <div class="p-5 grid grid-cols-2 gap-2 md:grid-cols-1 lg:grid-cols-2 lg:gap-6 border border-solid border-[#1313131A] rounded-xl">
+
+        <!-- selected image card -->
+         <div class="max-w-[7.75rem]">
+          <img class="max-w-full h-auto" src="./images/one.png" alt="Dogs">
+
+         </div>
+
+         <div class="max-w-[7.75rem]">
+          <img class="max-w-full h-auto" src="./images/one.png" alt="Dogs">
+
+         </div>
+
+
+         <div class="max-w-[7.75rem]">
+          <img class="max-w-full h-auto" src="./images/one.png" alt="Dogs">
+
+         </div>
+
+         <div class="max-w-[7.75rem]">
+          <img class="max-w-full h-auto" src="./images/one.png" alt="Dogs">
+
+         </div>
+
+        </div>
+
+      </section>
+      <!-- cards and picture -->
+      <div></div>
     </main>
 
-    <footer class="footer bg-neutral text-neutral-content p-10">
+    <footer class="footer bg-neutral text-neutral-content p-20">
       <aside>
-        <svg
-          width="50"
-          height="50"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          class="fill-current"
-        >
-          <path
-            d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"
-          ></path>
-        </svg>
-        <p>
-          ACME Industries Ltd.
-          <br />
-          Providing reliable tech since 1992
-        </p>
+        <div class="flex items-center gap-4 ">
+          <img src="./images/logo.webp" alt="">
+          <h2 class="text-4xl font-black"> Peddy</h2>
+        </div>
+      
+      <address class="text-center sm:text-start text-xl leading-8">
+        Location: av. Washington 165,NY CA 54003 <br>
+        Phone: +31 85 964 47 25 <br>
+
+        Email: info@yourdomain.com <br>
+
+        Openings hours: 9.00 AM - 5.00 PM 
+        
+      </address>
+       
       </aside>
       <nav>
         <h6 class="footer-title">Social</h6>
