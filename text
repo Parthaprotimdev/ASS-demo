@@ -1,0 +1,52 @@
+<section class="container">
+  <div class="card bg-base-100 w-[61rem] shadow-xl">
+    <figure class="px-24 pt-24">
+      <img src="./Assets/nodata.png" alt="Shoes" class="rounded-xl" />
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title text-[#131313] text-4xl font-bold">
+        No Information Available
+      </h2>
+      <p class="text-[#131313B2] text-xl max-w-[47.5rem]">
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout. The point of
+        using Lorem Ipsum is that it has a.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- details -->
+
+<section>
+  <div class="card bg-base-100 w-[60rem] shadow-xl">
+    <figure>
+      <img src="./Assets/images/Rectangle3.png" alt="Shoes" />
+    </figure>
+    <div class="card-body">
+      <div class="mt-8">
+        <h4 class="text-[#131313] text-xl font-bold">Alessia Max</h4>
+
+        <ul
+          class="mt-2 pb-4 text-[#131313B2] text-base space-y-2 border-b border-b-[#131313B2]"
+        >
+          <li>Breed: Golder retriever</li>
+          <li>Birth: 2024</li>
+          <li>Gender: Female</li>
+          <li>Price : 199$</li>
+          <li>Vaccinated status: Partially</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-[#131313] text-xl">Details Information</h2>
+        <p class="text-[1rem] text-[#131313B2]">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using is that it has a more-or-less normal distribution of letters, as
+          opposed to using.
+        </p>
+        <button class="btn btn-block">Cancel</button>
+      </div>
+    </div>
+  </div>
+</section>

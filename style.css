@@ -7,3 +7,6 @@
 .partha {
   border: 1px solid red;
 }
+.active {
+  background-color: red;
+}
