@@ -45,7 +45,7 @@ const displayAllCard = (categories) => {
     if (categories.length === 0) {
       cardContainer.innerHTML = `
    <div>
-  <div class="card bg-[#13131308] shadow-xl w-fit h-auto">
+  <div class="card bg-[#13131308] shadow-xl w-[61rem] h-auto">
     <figure class="px-10 pt-10">
       <img
         src="./images/error.webp"
